@@ -46,6 +46,10 @@ clear
 print_logo
 print_info "Starting setup for the PDF Summarizer dependencies..."
 
+#Ensuring we are home
+print_info "Making sure we are in the home directory before we begin the setup."
+cd ~
+
 # Step 1: Update package lists
 print_heading "Step 1: Update System Package List"
 echo -e "Updating system package list...\n"
