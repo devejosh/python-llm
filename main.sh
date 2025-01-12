@@ -60,7 +60,7 @@ fi
 # Step 2: Install system dependencies
 print_heading "Step 2: Install System Dependencies"
 echo -e "Installing essential packages...\n"
-if ! apt install -y python3-pip python3-dev build-essential poppler-utils libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev tk-dev; then
+if ! apt install -y python3-pip python3-venv python3-dev build-essential poppler-utils libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev tk-dev; then
     print_error "Failed to install system dependencies" \
     "Please check your internet connection or package sources. Try running sudo apt-get update first."
     exit 1
