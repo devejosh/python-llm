@@ -181,7 +181,7 @@ echo -e "\n\e[1;32mIf you encounter any issues, refer to the README.md or open a
         echo "checking main file : main.py found and made executable."
     fi  
 
-    if ![ -f start.sh ];then
+    if ! [ -f start.sh ];then
         print_error "the start file is missing. Please check the installation directory (/python-llm) to make sure you have start.sh"
     else
         #start.sh exists. making it executable.
