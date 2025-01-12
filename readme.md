@@ -132,9 +132,5 @@ python main.py /path/to/your/file.pdf --output /path/to/save/summary.pdf
 
 ---
 
-## Need Help?
 
-If you have any issues or questions, check the [project wiki](#) or contact support at support@example.com.
-
-Happy summarizing!
 
