@@ -170,18 +170,16 @@ echo -e "\e[1;34m2.\e[0m Ensure your Python script (e.g., pdf_summarizer.py) is 
 echo -e "\e[1;34m3.\e[0m Run the script using: python3 pdf_summarizer.py"
 echo -e "\n\e[1;32mIf you encounter any issues, refer to the README.md or open an issue on GitHub.\e[0m"
 
-# Final message
-print_info "Setup complete! You are now ready to summarize PDFs with DistilBART. Starting the python script"
 
-# Starting main.py
-if ! python3 main.py; then
+# checking main.py and making it execution ready.
     # Check if the main.py file exists
     if ! [ -f main.py ]; then
         echo "Unable to load the main python file. The file name is main.py. Please check if file exists in the directory"
     else
         # If it exists, make it executable
         chmod +x main.py
-        echo "main.py found and made executable."
+        echo "checking main file : main.py found and made executable."
     fi
-fi
 
+# Final message
+print_info "Setup complete! You are now ready to summarize PDFs with DistilBART. Exiting!"
