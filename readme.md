@@ -1,3 +1,7 @@
+Certainly! Below is the generated README for your project, incorporating all the details discussed:
+
+---
+
 # PDF Summarizer with DistilBART
 
 This tool helps you summarize PDF documents quickly and efficiently using AI. It’s designed to be simple for anyone to use, even if you have limited computer experience. Follow this guide to get started!
@@ -34,56 +38,65 @@ Before using this tool, ensure:
 
 ### 2. Set Up Debian (Required for Now)
 
-If you haven’t already set up Debian:
+If you haven’t already set up Debian, follow these steps to install Debian on WSL:
 
-- On **Windows**:
-  1. Install **WSL** by following [this guide](https://learn.microsoft.com/en-us/windows/wsl/install).
-  2. Install Debian from the Microsoft Store.
-- On **macOS/Linux**: Install Debian or use a Debian-based virtual machine (e.g., using VirtualBox).
+#### On Windows (using WSL):
 
-> Note: Automated setup via PowerShell is planned for a future update.
+1. **Enable WSL on Windows**:
+   - Open PowerShell as Administrator and run the following command:
+     ```powershell
+     wsl --install
+     ```
+     This will install WSL and the default Linux distribution (Ubuntu).
 
-### 3. Open a Terminal or Command Prompt
+2. **Install Debian using Command-Line**:
+   - If you prefer to use Debian instead of Ubuntu, run the following command:
+     ```powershell
+     wsl --install -d Debian
+     ```
+     This command will directly install Debian through WSL, replacing the default Ubuntu distribution with Debian.
 
-- **Windows**: Press `Win + R`, type `cmd`, and press Enter.
-- **macOS/Linux**: Open your terminal application.
+3. **Set up Debian**:
+   - Once Debian is installed, launch it from the Start menu (search for "Debian").
+   - The first time you open Debian, you will be asked to set up a username and password. Set the **username to `dusty`** and the **password to `123`** (or choose your own credentials).
+   - After the setup, Debian will be ready to use.
 
-### 4. Navigate to the Project Folder
+#### On macOS/Linux (using a virtual machine):
 
-In the terminal, use the `cd` command to go to the folder where you saved the project.
-For example:
+- If you're using macOS or Linux, you can install Debian on a virtual machine using VirtualBox or VMware.
+  - Download the Debian ISO from [Debian's official website](https://www.debian.org/distrib/).
+  - Install the OS in a VM, following the Debian installation process.
 
-```bash
-cd path/to/your/project/folder
-```
+> **Note**: Automated setup via PowerShell is planned for a future update.
 
-### 5. Run the Setup Command
+### 3. Manual Setup of `main.sh` (Linux/WSL Users)
 
-Run this command to install everything the program needs:
+1. **Install Git and Clone the Repository**:
+   - Open the Debian terminal and run:
+     ```bash
+     sudo apt update
+     sudo apt install git
+     git clone https://github.com/devejosh/python-llm.git
+     cd python-llm
+     ```
 
-```bash
-python setup.py install
-```
+---
 
-This may take a few minutes. Let it finish completely.
+## Automated Setup
 
-### 6. Start the PDF Summarizer
+After the steps above, everything will be automated. You don’t need to manually run the `main.sh` script or configure anything further. The setup and installation will be handled for you.
 
-Run the following command to start the program:
+### 4. Import the PDF
+
+Once everything is set up, run the following command to start the PDF summarizer:
 
 ```bash
 python main.py
 ```
 
-### 7. Choose a PDF File
+A window will pop up, allowing you to select the PDF file you want to summarize. If the window doesn’t appear, the program will ask you to type the file path in the terminal.
 
-- A window will pop up, allowing you to select a PDF file.
-- If the window doesn’t appear, the program will ask you to type the file path in the terminal.
-
-### 8. Wait for the Summary
-
-- The program will process the PDF and show a progress bar.
-- Once complete, it will save the summarized PDF in the same folder as the original file.
+Once the PDF is selected, the program will process the file, summarize it, and save the summary in the same folder as the original file.
 
 ---
 
@@ -129,8 +142,4 @@ Specify where to save the summary:
 ```bash
 python main.py /path/to/your/file.pdf --output /path/to/save/summary.pdf
 ```
-
----
-
-
 
