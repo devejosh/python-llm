@@ -68,6 +68,12 @@ Once done, open powershell post restart and go through the following steps.
      cd python-llm
      ```
 
+**Make the bash script executable**
+
+```bash
+sudo chmod +x ./main.sh
+```
+
 **Run the main file - main.sh --> This is the entry point to the setup, so please ensure to run it**:
    
     sudo ./main.sh
