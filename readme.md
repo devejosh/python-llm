@@ -77,9 +77,14 @@ sudo chmod +x ./main.sh
 **Run the main file - main.sh --> This is the entry point to the setup, so please ensure to run it**:
    
     sudo ./main.sh
+
+**The script should install all required dependencies Once done, run the following command to start the program.**
+
+```bash
+./start.sh
+```
      
-     
-### If you've set it up thus far, the shell script should take care of the rest. The shell program should install all the required dependencies and run the python file automatically.  ###
+### Open an issue for any issues you may encounter or ping me directly on X  ###
 ---
 
 
