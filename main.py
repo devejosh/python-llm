@@ -11,6 +11,7 @@ from time import sleep
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from tqdm import tqdm
+from colorama import Fore
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
