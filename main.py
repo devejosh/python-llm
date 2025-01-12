@@ -115,8 +115,6 @@ def get_pdf_path():
 
 # Main function
 def main():
-    print_logo()
-
     # Get PDF path from user
     pdf_path = get_pdf_path()
 
