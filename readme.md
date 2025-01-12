@@ -76,6 +76,7 @@ If you haven’t already set up Debian, follow these steps to install Debian on 
 
 **Run the main file - main.sh --> This is the entry point to the setup, so please ensure to run it**:
    
+    -
      ```bash
      sudo main.sh
      ```
