@@ -62,18 +62,18 @@ Once done, open powershell post restart and go through the following steps.
 1. **Install Git and Clone the Repository**:
    - Open the Debian terminal and run:
      ```bash
-     sudo apt update
-     sudo apt install git
+     sudo apt update -y
+     sudo apt install git -y
      git clone https://github.com/devejosh/python-llm.git
      cd python-llm
      ```
 
 **Run the main file - main.sh --> This is the entry point to the setup, so please ensure to run it**:
    
-    sudo su && ./main.sh
+    sudo ./main.sh
      
      
-*** If you've set it up thus far, the shell script should take care of the rest. ***
+### If you've set it up thus far, the shell script should take care of the rest. The shell program should install all the required dependencies and run the python file automatically.  ###
 ---
-#
+
 
