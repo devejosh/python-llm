@@ -1,4 +1,4 @@
-Certainly! Below is the generated README for your project, incorporating all the details discussed:
+Here’s the updated README with the section you requested removed:
 
 ---
 
@@ -30,13 +30,7 @@ Before using this tool, ensure:
 
 ## Step-by-Step Installation and Usage
 
-### 1. Download the Project
-
-1. Go to the project’s release page or repository.
-2. Click the download button to get the project files.
-3. Save the files in a folder on your computer.
-
-### 2. Set Up Debian (Required for Now)
+### 1. Set Up Debian (Required for Now)
 
 If you haven’t already set up Debian, follow these steps to install Debian on WSL:
 
@@ -69,7 +63,7 @@ If you haven’t already set up Debian, follow these steps to install Debian on 
 
 > **Note**: Automated setup via PowerShell is planned for a future update.
 
-### 3. Manual Setup of `main.sh` (Linux/WSL Users)
+### 2. Manual Setup of `main.sh` (Linux/WSL Users)
 
 1. **Install Git and Clone the Repository**:
    - Open the Debian terminal and run:
@@ -86,7 +80,7 @@ If you haven’t already set up Debian, follow these steps to install Debian on 
 
 After the steps above, everything will be automated. You don’t need to manually run the `main.sh` script or configure anything further. The setup and installation will be handled for you.
 
-### 4. Import the PDF
+### 3. Import the PDF
 
 Once everything is set up, run the following command to start the PDF summarizer:
 
