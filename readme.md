@@ -1,4 +1,5 @@
 # PDF Summarizer with DistilBART
+# PDF Summarizer with DistilBART
 
 A fast, AI-powered tool that generates concise summaries of your PDF documents. Designed to be intuitive and easy to use.
 
@@ -6,19 +7,19 @@ A fast, AI-powered tool that generates concise summaries of your PDF documents. 
 
 ## 🚀 Features
 
-- **AI-powered PDF Summaries**: Quickly generate concise summaries.
-- **Cross-Platform**: Works on **Windows**, **macOS**, and **Linux**.
-- **Intuitive UI**: Simple, user-friendly interface.
-- **Automatic Dependency Installation**: No manual setup required.
-- **Output**: Clean, summarized PDF ready to download.
+- **AI-powered summaries** for PDF content.
+- **Cross-platform support** (Windows, macOS, Linux).
+- **Intuitive interface** for easy use.
+- **Automatic installation** of dependencies.
+- **Clean output** in a summarized PDF format.
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
-1. **Windows**: Requires **WSL** (Windows Subsystem for Linux). 
-2. A **stable internet connection** for dependencies.
-3. **Debian-based OS** installed on WSL or VM (Linux/macOS users can skip).
+1. WSL installed on Windows (optional for other OS).
+2. A **stable internet connection**.
+3. **Debian** setup on WSL or a Debian-based OS.
 
 ---
 
