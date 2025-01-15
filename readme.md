@@ -1,5 +1,4 @@
 # PDF Summarizer with DistilBART
-# PDF Summarizer with DistilBART
 
 A fast, AI-powered tool that generates concise summaries of your PDF documents. Designed to be intuitive and easy to use.
 
