@@ -30,21 +30,9 @@ Open **PowerShell** as Administrator and run:
 
 ```powershell
 wsl --install
+```
 
-As a UX designer, I understand the importance of clarity, structure, and visual appeal, even in a `README.md` file. A modern `README.md` should not only deliver the information effectively but also create a cohesive and professional experience. Here are some suggestions to improve its design and ensure it aligns with modern UX principles:
 
-### Key Principles for Improvement:
-1. **Use Visual Hierarchy**: Organize the content with clear, visual distinctions between headings, subheadings, and body text.
-2. **Focus on Simplicity**: Keep the language direct and use whitespace effectively.
-3. **Incorporate Actionable Sections**: Highlight key actions (installation, usage, troubleshooting) with clear, easy-to-follow steps.
-4. **Consider Readability**: Ensure good typography and use appropriate emphasis (bold, italic, code) to guide the reader’s eye.
-5. **Consistency**: Ensure consistent formatting throughout to avoid cognitive overload.
-
----
-
-### Revised `README.md`
-
-```markdown
 # PDF Summarizer with DistilBART
 
 A fast, AI-powered tool that generates concise summaries of your PDF documents. Designed to be intuitive and easy to use.
