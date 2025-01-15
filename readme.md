@@ -1,90 +1,91 @@
 
-# PDF Summarizer with DistilBART
 
-This tool helps you summarize PDF documents quickly and efficiently using AI. It’s designed to be simple for anyone to use, even if you have limited computer experience. Follow this guide to get started!
+```markdown
+## PDF Summarizer with DistilBART
+
+An AI-powered tool that quickly summarizes your PDF documents. Simple to use, with minimal setup.
 
 ---
 
 ## Features
 
-- Summarizes PDF content into a concise format.
-- Works on Windows, macOS, and Linux.
-- Easy-to-use interface with a graphical option.
-- Automatic installation of required components.
-- Generates a polished, summarized PDF file.
+- **AI-powered summaries** for PDF content.
+- **Cross-platform support** (Windows, macOS, Linux).
+- **Intuitive interface** for easy use.
+- **Automatic installation** of dependencies.
+- **Clean output** in a summarized PDF format.
 
 ---
 
 ## Prerequisites
 
-Before using this tool, ensure:
-
-1.  Your computer is compatible with **WSL** and **WSL** is installed.
-2. You’re connected to the internet (to download necessary components).
-3. You have **Debian** set up on **WSL** (Windows Subsystem for Linux) or installed a Debian-based OS on a virtual machine (VM). This is a temporary requirement until functionality for automated setup via PowerShell is added.
+1. WSL installed on Windows (optional for other OS).
+2. A **stable internet connection**.
+3. **Debian** setup on WSL or a Debian-based OS.
 
 ---
 
-## Step-by-Step Installation and Usage
+## Installation & Usage
 
-### Installing WSL ###
-If Windows subsystem for linux (WSL) isn't set up  on your system, I suggest you check if your operating system and hardware supports WSL. If it does, proceed further.
+### 1. Install WSL (Windows Only)
 
-- Open **Powershell** as **Administrator** and run the following command.
+Run this command in **PowerShell** (as Administrator):
 
-``` powershell
+```powershell
 wsl --install
 ```
-Running this command should install windows subsystem for linux on your system. The install will also  include the default Linux distribution (Ubuntu). 
-After installing WSL, I recommend a system restart.
 
-Once done, open powershell post restart and go through the following steps. 
+> After installation, restart your system.
 
-
-2. **Start Ubuntu**:
-   - use the following command to start ubuntu from command prompt or powershell.
-
-   ```powershell
-   wsl -d Ubuntu
-   ```
-
-   - After the system starts, you will see the terminal. Which looks something like 
-
-  ```bash
-  dusty@Asus-ROG-STRIX
-  ```
-  *** Note: *** your terminal will have the same prompt, but will have your ```username@<your machine name>``` listed. what I've listed above is an example.
-
-  If you see your terminal, like you see in the snippet above, move foward. 
-
-### 2. Manual Setup of `main.sh` (Linux/WSL Users)
-
-1. **Install Git and Clone the Repository**:
-   - Open the Debian terminal and run:
-     ```bash
-     sudo apt update -y
-     sudo apt install git -y
-     git clone https://github.com/devejosh/python-llm.git
-     cd python-llm
-     ```
-
-**Make the bash script executable**
-
-```bash
-sudo chmod +x ./main.sh
-```
-
-**Run the main file - main.sh --> This is the entry point to the setup, so please ensure to run it**:
-   
-    sudo ./main.sh
-
-**The script should install all required dependencies Once done, run the following command to start the program.**
-
-```bash
-./start.sh
-```
-     
-### Open an issue for any issues you may encounter or ping me directly on X  ###
 ---
 
+### 2. Set Up Ubuntu
 
+Launch **Ubuntu** from **PowerShell** or **Command Prompt**:
+
+```powershell
+wsl -d Ubuntu
+```
+
+You should see a terminal prompt like:
+
+```bash
+username@machine-name:~$
+```
+
+---
+
+### 3. Set Up the Application
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/devejosh/python-llm.git
+   cd python-llm
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   sudo apt update -y
+   sudo apt install git -y
+   sudo chmod +x ./main.sh
+   sudo ./main.sh
+   ```
+
+3. **Start the app**:
+
+   ```bash
+   ./start.sh
+   ```
+
+---
+
+## Support
+
+- **Open an issue** on GitHub for any problems.
+- Reach out to me on **X** (formerly Twitter).
+
+---
+
+*Project in early development. Feedback is welcome.*
