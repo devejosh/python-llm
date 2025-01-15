@@ -1,47 +1,44 @@
+# PDF Summarizer with DistilBART
 
-
-```markdown
-## PDF Summarizer with DistilBART
-
-An AI-powered tool that quickly summarizes your PDF documents. Simple to use, with minimal setup.
+A fast, AI-powered tool that generates concise summaries of your PDF documents. Designed to be intuitive and easy to use.
 
 ---
 
-## Features
+## 🚀 Features
 
-- **AI-powered summaries** for PDF content.
-- **Cross-platform support** (Windows, macOS, Linux).
-- **Intuitive interface** for easy use.
-- **Automatic installation** of dependencies.
-- **Clean output** in a summarized PDF format.
-
----
-
-## Prerequisites
-
-1. WSL installed on Windows (optional for other OS).
-2. A **stable internet connection**.
-3. **Debian** setup on WSL or a Debian-based OS.
+- **AI-powered PDF Summaries**: Quickly generate concise summaries.
+- **Cross-Platform**: Works on **Windows**, **macOS**, and **Linux**.
+- **Intuitive UI**: Simple, user-friendly interface.
+- **Automatic Dependency Installation**: No manual setup required.
+- **Output**: Clean, summarized PDF ready to download.
 
 ---
 
-## Installation & Usage
+## 📋 Prerequisites
 
-### 1. Install WSL (Windows Only)
+1. **Windows**: Requires **WSL** (Windows Subsystem for Linux). 
+2. A **stable internet connection** for dependencies.
+3. **Debian-based OS** installed on WSL or VM (Linux/macOS users can skip).
 
-Run this command in **PowerShell** (as Administrator):
+---
+
+## 🛠️ Installation & Setup
+
+### 1. Install WSL (Windows)
+
+Open **PowerShell** as Administrator and run:
 
 ```powershell
 wsl --install
 ```
 
-> After installation, restart your system.
+> Once installation completes, restart your computer.
 
 ---
 
-### 2. Set Up Ubuntu
+### 2. Launch Ubuntu
 
-Launch **Ubuntu** from **PowerShell** or **Command Prompt**:
+After your system restarts, open **PowerShell** or **Command Prompt** and run:
 
 ```powershell
 wsl -d Ubuntu
@@ -55,7 +52,7 @@ username@machine-name:~$
 
 ---
 
-### 3. Set Up the Application
+### 3. Set Up the Project
 
 1. **Clone the repository**:
 
@@ -64,7 +61,7 @@ username@machine-name:~$
    cd python-llm
    ```
 
-2. **Install dependencies**:
+2. **Install Dependencies**:
 
    ```bash
    sudo apt update -y
@@ -73,7 +70,7 @@ username@machine-name:~$
    sudo ./main.sh
    ```
 
-3. **Start the app**:
+3. **Start the Summarizer**:
 
    ```bash
    ./start.sh
@@ -81,11 +78,15 @@ username@machine-name:~$
 
 ---
 
-## Support
+## 🧑‍💻 Support & Feedback
 
-- **Open an issue** on GitHub for any problems.
-- Reach out to me on **X** (formerly Twitter).
+If you encounter any issues:
+
+- **Open an issue** on [GitHub](https://github.com/devejosh/python-llm/issues).
+- Contact me directly on **X** (formerly Twitter).
 
 ---
 
-*Project in early development. Feedback is welcome.*
+*This project is in its early stages. Contributions and feedback are welcome!*
+
+**--Devendra**
